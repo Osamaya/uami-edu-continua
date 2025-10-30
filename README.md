@@ -56,14 +56,32 @@ frontend/
     └── config.js
 ```
 EXPLICACIÓN DE LA ESTRUCTURA
+```
+Carpeta / Archivo	Descripción
+assets/	Imágenes, íconos, fuentes y estilos globales.
+components/layout/	Componentes estructurales del layout (Header, Sidebar, Footer).
+components/ui/	Componentes reutilizables (Botones, Inputs, Modales).
+pages/	Cada pantalla o vista principal de la aplicación.
+hooks/	Custom Hooks (por ejemplo, carga de Excel o manejo de peticiones).
+context/	Manejo global de estado con React Context API.
+services/	Configuración de peticiones al backend (FastAPI).
+utils/	Funciones auxiliares o helpers.
+router/	Definición de rutas con React Router.
+theme/	Paleta de colores y tipografía global (Material UI o Tailwind).
+```
 
-assets/	Imágenes, logos, fuentes
-components/layout/	Componentes del marco (sidebar, header)
-components/ui/	Componentes reutilizables (botones, inputs)
-pages/	Cada pantalla del sistema
-hooks/	Custom hooks (ej. carga de Excel, fetch)
-context/	Manejo global de estado
-services/	Requests al backend (FastAPI)
-utils/	Funciones helper
-router/	Rutas de la app
-theme/	Paleta de colores, estilos globales (si usaramos Material o Tailwind config)
+Tecnologías
+
+React.js
+Vite / CRA
+Axios / Fetch
+Context API
+Tailwind CSS / CSS Modules
+
+FastAPI (Backend)
+
+Próximas actualizaciones
+Integración con backend (FastAPI)
+Autenticación de usuarios
+Dashboard de métricas
+Sistema de carga de Excel optimizado
