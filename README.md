@@ -71,7 +71,7 @@ theme/	Paleta de colores y tipografía global (Material UI o Tailwind).
 ```
 
 Tecnologías
-
+```
 React.js
 Vite / CRA
 Axios / Fetch
@@ -85,3 +85,20 @@ Integración con backend (FastAPI)
 Autenticación de usuarios
 Dashboard de métricas
 Sistema de carga de Excel optimizado
+```
+
+CREACIÓN DEL PROYECTO
+```
+1. Crear el proyecto
+npm create vite@latest nombre-del-proyecto
+
+2. Instalar dependencias
+pnpm install
+
+3. Ejecutar el servidor de desarrollo
+pnpm run dev
+
+➜  Local:   http://localhost:5173/
+
+```
+   
