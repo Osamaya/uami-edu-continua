@@ -90,7 +90,7 @@ Sistema de carga de Excel optimizado
 CREACIÓN DEL PROYECTO
 ```
 1. Crear el proyecto
-npm create vite@latest nombre-del-proyecto
+pnpm create vite@latest nombre-del-proyecto
 
 2. Instalar dependencias
 pnpm install
