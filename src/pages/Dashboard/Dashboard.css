@@ -1,0 +1,25 @@
+.mb{
+    margin-bottom: 1rem;
+}
+
+.mt{
+    margin-top: 1rem;
+}
+
+.p4{
+    padding: 1rem;
+}
+
+.grid-stack {
+  width: 100%;
+  min-height: 300px; /* necesario */
+}
+.grid-item {
+  background: var(--accent);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-subtle);
+}

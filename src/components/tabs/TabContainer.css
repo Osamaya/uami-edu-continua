@@ -1,0 +1,13 @@
+@reference "tailwindcss";
+
+.tab-item {
+  @apply py-2 px-4 font-medium text-[var(--text-muted)] transition-all duration-200;
+}
+
+.tab-item:hover {
+  @apply text-[var(--text-secondary)];
+}
+
+.tab-item[data-headlessui-state="selected"] {
+  @apply border-b-2 border-[var(--accent)] text-[var(--accent)];
+}
